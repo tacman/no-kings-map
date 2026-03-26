@@ -1,47 +1,47 @@
 window.PARKING_SPOTS = [
   {
     id: 1,
-    name: "Black Bear Manor",
-    address: "3717 Sperryville Pike, Sperryville, VA",
+    name: "Sanford Guide at #11771 Lee Hwy (shuttle to site)",
+    address: "11771 Lee Hwy, Sperryville, VA 22740",
     notes: "Rally & parking. Main event location.",
     image: "./images/1.jpg",
     mode: "address",
-    value: "3717 Sperryville Pike, Sperryville, VA"
+    value: "11771 Lee Hwy, Sperryville, VA 22740"
   },
   {
     id: 2,
-    name: "Public Parking - Main Street",
-    address: "37 Main Street, Sperryville, VA",
+    name: "Next to Sperryville post office",
+    address: "43 Main St., Sperryville, VA 22740",
     notes: "On either side of Cheri Woodard Realty/Thornton Art building.",
     image: "./images/2.jpg",
     mode: "address",
-    value: "37 Main Street, Sperryville, VA"
+    value: "43 Main St., Sperryville, VA 22740"
   },
   {
     id: 3,
-    name: "Hopkins Back Lot",
-    address: "47 Main Street, Sperryville, VA",
+    name: "Between Black Bear Manor and fence",
+    address: "3717 Sperryville Pike, Sperryville, VA 22740",
     notes: "Hopkins property rear parking area.",
     image: "./images/3.jpg",
     mode: "address",
-    value: "47 Main Street, Sperryville, VA"
+    value: "3717 Sperryville Pike, Sperryville, VA 22740"
   },
   {
     id: 4,
-    name: "Western Storefront",
-    address: "11961 Lee Hwy, Sperryville, VA",
+    name: "Western Style storefront #11961 Lee Hwy",
+    address: "11961 Lee Hwy, Sperryville, VA 22740",
     notes: "Frontage parking on Lee Hwy.",
     image: "./images/4.jpg",
     mode: "address",
-    value: "11961 Lee Hwy, Sperryville, VA"
+    value: "11961 Lee Hwy, Sperryville, VA 22740"
   },
   {
     id: 5,
-    name: "Sperryville Post Office",
-    address: "3300 River Rd, Sperryville, VA",
+    name: "Yard behind green house",
+    address: "",
     notes: "Public parking near post office.",
     image: "./images/5.jpg",
     mode: "address",
-    value: "3300 River Rd, Sperryville, VA"
+    value: ""
   }
 ];
