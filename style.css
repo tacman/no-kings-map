@@ -37,11 +37,17 @@ body {
 .notice,
 .spot,
 .map-section,
-.footer {
+.footer,
+.event-details {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+}
+
+.event-details {
+  padding: 20px;
+  margin-bottom: 16px;
 }
 
 .hero,
@@ -49,6 +55,21 @@ body {
 .footer {
   padding: 20px;
   margin-bottom: 16px;
+}
+
+.details-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 6px;
+}
+
+.topics {
+  list-style: none;
+  padding-left: 0;
+  color: var(--muted);
 }
 
 .hero h1 {
