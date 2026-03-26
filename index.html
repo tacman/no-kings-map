@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>No Kings Parking Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Choose a parking spot and open directions in Google Maps.">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>No Kings Parking Guide</h1>
+      <p class="lede">
+        Choose a parking option below, then tap <strong>Open in Google Maps</strong>.
+      </p>
+    </header>
+
+    <section class="map-section">
+      <img
+        src="./assets/no-kings-guide.jpg"
+        alt="Illustrated No Kings parking guide with five numbered parking areas"
+        class="guide-image"
+      >
+    </section>
+
+    <section class="notice">
+      <p><strong>Please don’t block other cars from leaving when you park.</strong></p>
+      <p class="muted">Tip: Lot 1 is the shuttle option and may be the easiest for many visitors.</p>
+    </section>
+
+    <section>
+      <h2>Parking Options</h2>
+      <div id="spots" class="spots"></div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        If one lot looks full, return to this page and choose another.
+      </p>
+    </footer>
+  </main>
+
+  <script src="./spots.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
