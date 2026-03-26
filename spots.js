@@ -22,5 +22,21 @@ window.PARKING_SPOTS = [
     notes: "Hopkins property rear parking area.",
     mode: "address",
     value: "47 Main Street, Sperryville, VA"
+  },
+  {
+    id: 4,
+    name: "Western Storefront",
+    address: "11961 Lee Hwy, Sperryville, VA",
+    notes: "Frontage parking on Lee Hwy.",
+    mode: "address",
+    value: "11961 Lee Hwy, Sperryville, VA"
+  },
+  {
+    id: 5,
+    name: "Sperryville Post Office",
+    address: "3300 River Rd, Sperryville, VA",
+    notes: "Public parking near post office.",
+    mode: "address",
+    value: "3300 River Rd, Sperryville, VA"
   }
 ];
