@@ -36,6 +36,8 @@
         <h3 class="spot-title">${spot.name}</h3>
       </div>
 
+      ${spot.image ? `<img src="${spot.image}" alt="${spot.name}" class="spot-image">` : ''}
+
       <p class="spot-address">${spot.address}</p>
       <p class="spot-notes">${spot.notes || ''}</p>
 
