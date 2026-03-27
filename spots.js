@@ -1,7 +1,7 @@
 window.PARKING_SPOTS = [
   {
     id: 1,
-    name: "Sanford Guide at #11771 Lee Hwy (shuttle to site)",
+    name: "#11771 Lee Hwy (shuttle to site)",
     address: "11771 Lee Hwy, Sperryville, VA 22740",
     notes: "Rally & parking. Main event location.",
     image: "./images/1.jpg",
